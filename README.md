@@ -44,5 +44,5 @@ huggingface-cli download RAGLAB/Llama3-8B-baseline --local-dir Llama3-8B-baselin
 ### Run PARA
 Use the following command to run PARA with `dataset`. 
 ```shell
-sh ./run/rag_inference/para/para-dataset-Llama3-baseline.sh 
+sh run/rag_inference/para/para-dataset-Llama3-baseline.sh 
 ```
