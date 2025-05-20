@@ -1,7 +1,6 @@
 # Probability Accumulation Retrieval-Augmented Generation with Active Selection
 
-This repository is the implement for the paper Probability Accumulation Retrieval-Augmented Generation with
- Active Selection.
+This repository is the implement for the paper Probability Accumulation Retrieval-Augmented Generation with Active Selection.
 
 ## Overview
 
@@ -13,7 +12,6 @@ Probability Accumulation Retrieval Augmentation (PARA). It emphasizes the reliab
 
 ## Install environment
 The code of PARA is implemented by RAGLAB. Please refer to the [RAGLAB repository](https://github.com/fate-ubw/RAGLab) for the complete conda environment configuration and retriever setting.
-
 
 
 ### Download Wikipedia knowledge database
