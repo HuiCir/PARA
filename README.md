@@ -25,7 +25,7 @@ sh run/colbert_server/colbert_server_2023.sh
 ```
 
 ## Datasets
-- The experimental data were exclusively gathered from the same name open-source dataset, which is publicly accessible on GitHub or Hugging Face platforms, here are the list of the datasets.
+The experimental data were exclusively gathered from the same name open-source dataset, which is publicly accessible on GitHub or Hugging Face platforms, here are the list of the datasets.
 
 
 - [PubHealth](https://huggingface.co/datasets/ImperialCollegeLondon/health_fact)
@@ -34,7 +34,7 @@ sh run/colbert_server/colbert_server_2023.sh
 - [TriviaQA](https://huggingface.co/datasets/mandarjoshi/trivia_qa)
 - [HotpotQA](https://huggingface.co/datasets/hotpotqa/hotpot_qa)
 - [ASQA](https://huggingface.co/datasets/din0s/asqa)
-- If you want to reproduce the results from the papers, you need to download all the required data from Hugging Face, including training data, knowledge data, and evaluation data. [RAGLAB repository](https://github.com/fate-ubw/RAGLab) have packaged all the data, so you just need to download it and it's ready to use.
+If you want to reproduce the results from the papers, you need to download all the required data from Hugging Face, including training data, knowledge data, and evaluation data. [RAGLAB repository](https://github.com/fate-ubw/RAGLab) have packaged all the data, so you just need to download it and it's ready to use.
   ~~~bash
   cd PARA
   huggingface-cli download PARA/data --local-dir data --repo-type dataset
